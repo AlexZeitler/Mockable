@@ -20,7 +20,7 @@ namespace Mockable.System.IO {
 			global::System.IO.Directory.Delete(path, recursive);
 		}
 
-		public bool Exsits(string path) {
+		public bool Exists(string path) {
 			return global::System.IO.Directory.Exists(path);
 		}
 	}

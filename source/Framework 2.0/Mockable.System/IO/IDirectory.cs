@@ -44,6 +44,6 @@ namespace Mockable.System.IO {
 		/// </summary>
 		/// <param name="path">The path to test.</param>
 		/// <returns>true if path refers to an existing directory; otherwise, false.</returns>
-		bool Exsits(string path);
+		bool Exists(string path);
 	}
 }
